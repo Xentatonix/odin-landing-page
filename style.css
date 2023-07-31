@@ -15,10 +15,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
+    
     flex: 1;
 
     height: 25rem;;
+
+    background-color: #1f2937;
 }
 
 /* header */
@@ -26,9 +28,9 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     
+
 
     gap: 5rem;
     padding: 0.5rem 10rem 5rem;
@@ -70,7 +72,44 @@ body {
     
     width: 600px;
     height: 150px;
-
     border: 1px solid;
+
+    background-color: white;
 }
 
+
+/* info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 10rem 5rem;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 140px;
+    text-align: center;
+}
+
+.blue-box {
+    height: 140px;
+    width: 140px;
+
+    border: 2px solid blue;
+    border-radius: 10px;
+}
